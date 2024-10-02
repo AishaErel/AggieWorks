@@ -21,6 +21,7 @@ function Login() {
         } catch (error) {
             console.log(error.message);
             console.error("Failed to Login");
+            alert("Failed to login, please try again!");
         }
     };
 
