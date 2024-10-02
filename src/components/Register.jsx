@@ -33,6 +33,7 @@ function Register() {
         } catch (error) {
             console.log(error.message);
             console.error("Failed to register");
+            alert("Failed to register, email is already in use, please try again!");
         }
     };
 
